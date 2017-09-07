@@ -17,8 +17,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
-        android:text="B.S Computer Science"
-        android:onClick="goToCS"/>
+        android:onClick="goToCS"
+        android:text="B.S. Computer Science" />
 
     <Button
         android:id="@+id/btnIT"
