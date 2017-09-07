@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.patrick.poliquitquiz1.ISActivity">
+
+
+    <Button
+        android:id="@+id/goToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:onClick="goToHome"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title" />
+
+    <Button
+        android:id="@+id/goToCS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="CS Program"
+        android:onClick="goToCS"/>
+
+    <Button
+        android:id="@+id/goToIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT Program"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="goToIT"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="BACHELOR OF SCIENCE IN INFORMATION SYSTEMS (4 years)"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Level I accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/subject"
+        android:layout_alignStart="@+id/subject"
+        android:layout_below="@+id/subject"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:text="Students under the BS Information Systems program are trained to handle the managerial side of computer related activities. The focus of the program is effective management of resources – people, money, and computer facilities, especially in areas involving accounting, projections/estimates/feasibility studies, and the like."
+        android:textSize="18sp" />
+</RelativeLayout>
