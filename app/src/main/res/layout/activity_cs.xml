@@ -82,12 +82,4 @@
         android:text="Students under the BS Computer Science program are highly trained for software and system development. The program’s main focus is to expose the students to different approaches and styles in developing programs whether they are procedural or the object oriented type of system approach."
         android:textSize="18sp" />
 
-    <ImageView
-        android:id="@+id/banner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/banner"
-        android:layout_above="@+id/goToMain"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 </RelativeLayout>
