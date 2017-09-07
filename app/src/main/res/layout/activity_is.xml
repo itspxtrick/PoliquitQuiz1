@@ -81,4 +81,5 @@
         android:gravity="center"
         android:text="Students under the BS Information Systems program are trained to handle the managerial side of computer related activities. The focus of the program is effective management of resources – people, money, and computer facilities, especially in areas involving accounting, projections/estimates/feasibility studies, and the like."
         android:textSize="18sp" />
+
 </RelativeLayout>
